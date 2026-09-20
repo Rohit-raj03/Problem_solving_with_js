@@ -2,18 +2,17 @@
 
 ### 🧩 **Core Concept Focus**
 
-* Nested Loops
-* Pattern Printing with Logic and Symmetry
-* Understanding iteration depth for shapes and designs
+- Nested Loops
+- Pattern Printing with Logic and Symmetry
+- Understanding iteration depth for shapes and designs
 
 ---
 
 ### 🧠 **Questions List**
 
 1. **Print Right-Angled Star Triangle**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *
@@ -22,14 +21,14 @@
      ****
      *****
      ```
-   * ✨ *Teaches nested loops and increasing sequence printing.*
+
+   - ✨ _Teaches nested loops and increasing sequence printing._
 
 ---
 
 2. **Print Inverted Right-Angled Triangle**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *****
@@ -38,14 +37,14 @@
      **
      *
      ```
-   * ✨ *Reinforces decreasing nested loop structure.*
+
+   - ✨ _Reinforces decreasing nested loop structure._
 
 ---
 
 3. **Print Pyramid Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
          *
@@ -54,14 +53,14 @@
       *******
      *********
      ```
-   * ✨ *Teaches alignment using spaces and nested loops.*
+
+   - ✨ _Teaches alignment using spaces and nested loops._
 
 ---
 
 4. **Print Inverted Pyramid Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *********
@@ -70,14 +69,14 @@
         ***
          *
      ```
-   * ✨ *Teaches reverse space-star pattern alignment.*
+
+   - ✨ _Teaches reverse space-star pattern alignment._
 
 ---
 
 5. **Print Hollow Square Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *****
@@ -86,14 +85,14 @@
      *   *
      *****
      ```
-   * ✨ *Practices conditional printing within nested loops.*
+
+   - ✨ _Practices conditional printing within nested loops._
 
 ---
 
 6. **Print Hollow Pyramid Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
          *
@@ -102,14 +101,14 @@
       *     *
      *********
      ```
-   * ✨ *Combines conditionals and symmetrical logic in loops.*
+
+   - ✨ _Combines conditionals and symmetrical logic in loops._
 
 ---
 
 7. **Print Alternating Binary Triangle**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      1
@@ -118,16 +117,16 @@
      0 1 0 1
      1 0 1 0 1
      ```
-   * ✨ *Combines parity logic with nested loops.*
+
+   - ✨ _Combines parity logic with nested loops._
 
 ---
 
 ### 🏠 **Homework / Practice Challenge**
 
 1. **Print Hollow Inverted Pyramid**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *********
@@ -136,14 +135,14 @@
         * *
          *
      ```
-   * ✨ *Focuses on conditionally printing edges and spaces.*
+
+   - ✨ _Focuses on conditionally printing edges and spaces._
 
 ---
 
 2. **Print Butterfly Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *       *
@@ -156,14 +155,14 @@
      **     **
      *       *
      ```
-   * ✨ *Combines multiple sections with symmetry logic.*
+
+   - ✨ _Combines multiple sections with symmetry logic._
 
 ---
 
 3. **Print Diamond Pattern**
-
-   * Input: `Rows = 3`
-   * Output:
+   - Input: `Rows = 3`
+   - Output:
 
      ```
          *
@@ -172,14 +171,14 @@
         ***
          *
      ```
-   * ✨ *Combines upper and lower pyramid logic for symmetry.*
+
+   - ✨ _Combines upper and lower pyramid logic for symmetry._
 
 ---
 
 4. **Print Hourglass Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
      *********
@@ -192,14 +191,14 @@
       *******
      *********
      ```
-   * ✨ *Practices combining inverse loops and symmetrical shapes.*
+
+   - ✨ _Practices combining inverse loops and symmetrical shapes._
 
 ---
 
 5. **Print Hollow Diamond Pattern**
-
-   * Input: `Rows = 3`
-   * Output:
+   - Input: `Rows = 3`
+   - Output:
 
      ```
          *
@@ -208,14 +207,14 @@
         * *
          *
      ```
-   * ✨ *Teaches combining upward and downward hollow pyramids.*
+
+   - ✨ _Teaches combining upward and downward hollow pyramids._
 
 ---
 
 6. **Print Rhombus Pattern**
-
-   * Input: `Rows = 5`
-   * Output:
+   - Input: `Rows = 5`
+   - Output:
 
      ```
          *****
@@ -224,14 +223,14 @@
       *****
      *****
      ```
-   * ✨ *Practices offset alignment for uniform patterns.*
 
-   ---
+   - ✨ _Practices offset alignment for uniform patterns._
+
+   ***
 
 7. **Print Multiplication Table (Single and Upto N)**
-
-   * Input 1: `Number = 5`
-   * Output:
+   - Input 1: `Number = 5`
+   - Output:
 
      ```
      5 x 1 = 5
@@ -239,8 +238,9 @@
      ...
      5 x 10 = 50
      ```
-   * Input 2: `Upto = 3`
-   * Output:
+
+   - Input 2: `Upto = 3`
+   - Output:
 
      ```
      Table of 1
@@ -249,5 +249,5 @@
      Table of 3
      3 x 10 = 30
      ```
-   * ✨ *Practices simple and nested loops for repetitive operations.*
 
+   - ✨ _Practices simple and nested loops for repetitive operations._
