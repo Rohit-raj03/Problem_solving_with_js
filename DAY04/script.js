@@ -15,3 +15,14 @@ function splitDigits(n) {
 }
 
 console.log(splitDigits(12345));
+
+
+//N = 12.34
+//Decimal ke baad 2 digits hain.
+//Isliye number ko 100 se multiply karo:
+
+let N = 12.34;
+
+let result = N * 100;
+
+console.log(result); // 1234
