@@ -16,7 +16,6 @@ function splitDigits(n) {
 
 console.log(splitDigits(12345));
 
-
 //2 N = 12.34
 //Decimal ke baad 2 digits hain.
 //Isliye number ko 100 se multiply karo:
@@ -81,3 +80,9 @@ function countDigits(n) {
 
 console.log(countDigits(12.345));
 // { wholeCount: 2, fractionCount: 3 }
+
+// //Generate a Decimal Number from Whole and Fractional Digits
+
+// Input: Whole = [1, 2], Fraction = [3, 4]
+// Output: 12.34
+// ✨ Form the number mathematically by combining the digits from both arrays using powers of 10.
