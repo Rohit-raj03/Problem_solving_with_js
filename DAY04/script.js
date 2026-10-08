@@ -86,3 +86,35 @@ console.log(countDigits(12.345));
 // Input: Whole = [1, 2], Fraction = [3, 4]
 // Output: 12.34
 // ✨ Form the number mathematically by combining the digits from both arrays using powers of 10.
+
+function generateDecimal(wholeDigits, fractionDigits) {
+  let wholeNumber = 0;
+  const n = wholeDigits.length;
+
+  // 1. Calculate Whole Part using positive powers of 10
+  for (let i = 0; i < n; i++) {
+    const power = n - 1 - i;
+    wholeNumber += wholeDigits[i] * 10 ** power;
+  }
+
+  // 2. Calculate Fractional Part using negative powers of 10
+  let fractionNumber = 0;
+  for (let j = 0; j < fractionDigits.length; j++) {
+    const power = -(j + 1);
+    fractionNumber += fractionDigits[j] * 10 ** power;
+  }
+
+  // 3. Combine both parts
+  const result = wholeNumber + fractionNumber;
+
+  // Safeguard against IEEE-754 floating-point inaccuracies (e.g., 12.340000000000002)
+  const precision = fractionDigits.length;
+  return Number(result.toFixed(precision));
+}
+
+// Example Test:
+// const whole = [1, 2];
+// const fraction = [3, 4];
+
+console.log(generateDecimal([1, 2], [3, 4]));
+// Output: 12.34
